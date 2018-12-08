@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+'''list'''
 import subprocess
 import paramiko
 hostname = '192.168.1.101'
