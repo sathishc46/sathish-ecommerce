@@ -1,5 +1,8 @@
+
 #!/usr/bin/env python
+
 import subprocess
+'''program to get the disk details'''
 def uname_func():
     uname = "uname"
     uname_arg = "-a"
