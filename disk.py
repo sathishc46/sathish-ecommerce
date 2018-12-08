@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 import subprocess
+import paramiko
+hostname = '192.168.1.101'
+port = 22
+username = 'root'
+password = 'redhat'
+t = paramiko.Transport((hostname, port))
+t.connect(username = 'username', password = 'password')
+
+
 def uname_func():
     uname = "uname"
     uname_arg = "-a"
